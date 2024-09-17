@@ -1,0 +1,20 @@
+.header__container{
+    width: calc(100vw - 2*var(--padding-body));
+    height: 144px;
+    border-bottom: 1px solid var(--brand-2);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gray-8);
+}
+.moon__icon{
+    background-color: var(--gray-6);
+    width: 44px;
+    height: 36px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.span__text{
+    color: var(--brand-1);
+}

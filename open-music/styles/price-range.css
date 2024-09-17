@@ -1,0 +1,31 @@
+.div__price-range {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.span__price {
+    color: var(--brand-1);
+}
+
+#price {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: calc(100vw - 2*var(--padding-body));
+    outline: none;
+    background-color: var(--brand-1);
+    border-radius: 0.5rem;
+    height: 0.5rem;
+}
+
+#price::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.5rem solid var(--brand-1);
+}

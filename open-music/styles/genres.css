@@ -1,0 +1,27 @@
+.section__genres{
+    display: flex;
+    flex-direction: column;
+    gap:5rem ;
+    
+}
+.form__genres{
+    display: flex;
+    gap: 14px;
+}
+
+.label__genres{
+    background-color: var(--gray-6);
+    width: 70px;
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--gray-3);
+    cursor: pointer;
+}
+.input__genres{
+    display: none;
+    
+}
+.input__genres:checked + label{
+    background-color: var(--gray-2);
+    color: var(--gray-7);
+}

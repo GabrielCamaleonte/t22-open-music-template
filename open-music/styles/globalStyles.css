@@ -1,0 +1,18 @@
+:root{
+    --brand-1:#6F00FF;
+    --brand-2:#8629FF;
+    --gray-1:#15171A;
+    --gray-2:#212529;
+    --gray-3:#2B2F33;
+    --gray-4:#CED4DA;
+    --gray-5:#DEE2E6;
+    --gray-6:#F1F3F5;
+    --gray-7:#F8F9FA;
+    --gray-8:#FDFEFF;
+    --padding-body:170px;
+    --font-h1:32px;
+    --font-h2:26px;
+    --font-h3:22px;
+    --font-h4:18px;
+    --font-h5:16px;
+}
