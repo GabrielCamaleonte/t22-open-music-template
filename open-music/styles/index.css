@@ -17,8 +17,12 @@ body{
     height: 100vh;
     padding:0px var(--padding-body);
     overflow-x: hidden;
-    
 }
+body.dark{
+    background-color: var(--gray-1);
+    color: white;
+}
+
 main{
     width: calc(100vw - 2*var(--padding-body));
     padding-top: calc(144px + 2*20px);

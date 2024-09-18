@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+.header__color{
     background-color: var(--gray-8);
 }
 .moon__icon{
@@ -14,7 +17,12 @@
     height: 36px;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    padding: 0;
+    align-items: stretch;
+    border: none;
 }
 .span__text{
     color: var(--brand-1);
 }
+
