@@ -20,7 +20,7 @@ function renderElements(cards){
     }
 }
 
-function createCards(cards){
+function createCards(){
     const boxes = document.querySelector('div')
 
     const imgs = document.createElement('img');
@@ -45,8 +45,19 @@ function createCards(cards){
     buy.className = "div__buy"
     btnBuy.className = "btn__buy"
 
+    renderElements(cards)
 }
  console.log(boxes)
+
+ const priceRange = document.getElementById('price')
+
+ function filterPrice(array) {
+    return array.filter((album) => {
+      return album.price >= 130;
+    });
+  }
+  console.log(renderElements(cards))
+  console.log(filterPrice(albumList));
 
 
  

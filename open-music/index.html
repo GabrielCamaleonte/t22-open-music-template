@@ -16,13 +16,13 @@
 
 <body >
   <!-- CABEÇALHO -->
-  <header class="header__container header__color" id="cabecalho">
+  <header id="cabecalho">
     <!-- DESENVOLVA AQUI OS ELEMENTOS DO CABEÇALHO -->
     <h1 style="font-weight: bold;">
       <span class="span__text">o</span>pen <span class="span__text">m</span>usic
     </h1>
-    <button class="moon__icon" id="btn__icon">
-      <img src="./assets/icons/moon-icon.svg" alt="moon-icon" id="moon-icon">
+    <button class="icon" id="btn__icon">
+      <img src="./assets/icons/moon-icon.svg" alt="icon" id="icons">
     </button>
   </header>
 
@@ -78,7 +78,7 @@
           Definir Preço
         </h2>
         <h2>
-          Até <span class="span__price">R$ 100</span>
+          Até <label for="price" class="label__price">R$<span id="priceValue">150</span></label>
         </h2>
       </div>
       <div>
@@ -92,7 +92,7 @@
       <h2 class="text__albums">
         Albuns Encontrados
       </h2>
-      <div class="div__container">
+      <div class="div__container" id="albumList">
         <div class="div__box">
           <img src="./assets/imgs/cover-1.jpg" alt="album-01">
           <h3 class="text__title">

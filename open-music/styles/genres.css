@@ -25,3 +25,15 @@
     background-color: var(--gray-2);
     color: var(--gray-7);
 }
+.label__genres.dark{
+    background-color: var(--gray-2);
+    width: 70px;
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--gray-6);
+    cursor: pointer;
+}
+.input__genres.dark:checked + label{
+    background-color: var(--gray-7);
+    color: var(--gray-2);
+}

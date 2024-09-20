@@ -1,4 +1,4 @@
-.header__container{
+header{
     width: calc(100vw - 2*var(--padding-body));
     height: 144px;
     border-bottom: 1px solid var(--brand-2);
@@ -6,12 +6,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
-.header__color{
     background-color: var(--gray-8);
 }
-.moon__icon{
+header.dark{
+    width: calc(100vw - 2*var(--padding-body));
+    height: 144px;
+    border-bottom: 1px solid var(--brand-2);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gray-1);
+}
+.icon{
     background-color: var(--gray-6);
     width: 44px;
     height: 36px;
@@ -22,6 +29,7 @@
     align-items: stretch;
     border: none;
 }
+
 .span__text{
     color: var(--brand-1);
 }
