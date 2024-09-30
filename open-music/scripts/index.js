@@ -50,14 +50,12 @@ function createCards(){
  console.log(boxes)
 
  const priceRange = document.getElementById('price')
-
- function filterPrice(array) {
-    return array.filter((album) => {
-      return album.price >= 130;
-    });
-  }
-  console.log(renderElements(cards))
-  console.log(filterPrice(albumList));
+ const precoExibido = document.getElementById('priceValue');
+ 
+ priceRange.addEventListener('input', () => {
+     const valor = priceRange.value;
+     precoExibido.textContent = `R$ ${valor}`;
+ });
 
 
  
